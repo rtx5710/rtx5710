@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body {margin: 0; 
+	background-image: url(123ff.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+#div1, #div3 
+	{
+	height: calc((100vh - 500px) / 2);
+	}
+	
+#div2 {
+	height : 500px;
+	width: 500px;
+	margin: 0 calc((100vw - 500px) / 2);
+}
+
+/* #div1 { */
+/* 	background-color: red; */
+/* } */
+/* #div3 { */
+/*  	background-color: green;  */
+/* }  */
+
+/* #div2 {  */
+/* 	background-color: yellow;  */
+/* } */
+
+#div2-1 {
+	padding: 10px 0 25px;
+
+/*     background-color: blue; */
+
+}
+
+h1{
+	margin: 0;
+	font-size: 5rem;
+	text-align: center;
+	color: white;
+}
+
+#div2-2{
+	padding: 1.5px;
+}
+#input{
+	width: calc(100% - (58px / 2));
+	padding: 10px 0 10px calc(58px / 2);
+	font-size: 1rem;
+	border: 0;
+	border-radius: calc(58px / 2);
+}
+#div2-3 div{
+	width: calc(100% / 5);
+	height: 90px;
+	float: left;
+	margin: 5px 0;
+
+/* 	background-color: #ffb9b9; */
+
+}
+
+#div2-3 div:hover{
+	background-color: #ffffff;
+	opacity: 0.2;
+	cursor: pointer;
+}
+
+#div-i1{
+	background-image: url(1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+#div-i2{
+	background-image: url(2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+#div-i3{
+	background-image: url(3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}#div-i4{
+	background-image: url(4.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}#div-i5{
+	background-image: url(5.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}#div-i6{
+	background-image: url(6.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}#div-i7{
+	background-image: url(1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}#div-i8{
+	background-image: url(2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}#div-i9{
+	background-image: url(3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+#div-i10{
+	background-image: url(4.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}

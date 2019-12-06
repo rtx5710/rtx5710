@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {margin: 0;}
+header {
+	height: 50px;
+	width: 100%;
+	background-color: blue;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+section {
+	margin: 50px 0;
+/* 	height: calc(100vh - 100px); */
+/* 	overflow: hidden; */
+/* 	overflow-y: scroll; */
+}
+footer {
+	height: 50px;
+	background-color: green;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+nav {
+	width: 100px;
+	background-color: black;
+/* 	height: calc(100vh - 100px); */
+	position: fixed;
+	left: 0;
+	top: 50px;
+	bottom: 50px;
+}
+div {
+	height: 100px;
+	background-color: red;
+}
+article {
+	background-color: yellow;
+/* 	overflow: scroll; */
+/*     overflow-y: scroll; */
+/*     height: 100%; */
+}

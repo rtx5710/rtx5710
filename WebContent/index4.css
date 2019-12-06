@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+	overflow: hidden;
+}
+div {height: calc(100vh / 3);}
+#gb1 {background-color: red;}
+#gb2 {background-color: yellow;}
+#gb3 {background-color: blue;}
+@media only screen and (max-width: 600px) {
+	.w15 {width: 15vw;}
+	.div {
+		height: 100vh;
+		float: left;
+	}
+	.gb2 {width: calc(100vw - 30vw);}
+}

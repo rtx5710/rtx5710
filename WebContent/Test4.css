@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+				margin: 0;
+				overflow: hidden;
+			}
+			.div{
+				width: 24vw;
+				height:	100vh;
+				float: left;
+			}
+			#div1{
+				background-color: red;
+			}
+			#div2{
+				background-color: yellow;
+				width: 50vw;
+			}
+			#div3{
+				background-color: blue;
+			}

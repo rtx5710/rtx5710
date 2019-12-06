@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {margin: 0;}
+#div1 {
+	background-color: red;
+	height: 20vh;
+}
+#div2 {
+	background-color: blue;
+	min-height: 60vh;
+	width: 70%;
+	float: left;
+}
+#div3 {
+	background-color: yellow;
+	min-height: 60vh;
+	width: 30%;
+	float: left;
+}
+#div4 {
+	background-color: green;
+	height: 20vh;
+	clear: both;
+}
+#m {
+	width: 800px;
+	margin-left: calc((100% - 800px) / 2);
+}

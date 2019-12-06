@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {margin: 0;}
+
+.bg1{background-color: #D9187C;}
+.bg2{background-color: #40FF69;}
+.bg3{background-color: #B54C2B;}
+.bg4{background-color: #21D4C5;}
+.bg5{background-color: #4913A1;}
+
+#div1 {
+	height: 150px;
+}
+#div2 {
+	width: 200px;
+	height: 86vh;
+	float: left;
+}
+
+
+#div3 {
+	width:calc(100% - 200px);
+	height: 86vh;
+	float: Left;
+}
+
+#div4{
+	width:width:calc(100% - 200px);
+	height: 40vh;
+	margin: 0;
+}
+
+#div5{
+	width:width:calc(100% - 200px);
+	height: 46vh;
+}
